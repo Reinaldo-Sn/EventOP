@@ -1,0 +1,14 @@
+// Barra de informações do evento
+.infos-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 0;
+  background: rgba(0, 0, 0, 0.3);
+
+  &__item {
+    font-size: 14px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+.footer {
+  background: #111;
+  padding: 48px 0;
+  text-align: center;
+
+  &__logo {
+    height: 60px;
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+  }
+
+  &__copy {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
