@@ -22,10 +22,6 @@
     z-index: 1;
   }
 
-  &__logo {
-    height: 80px;
-  }
-
   &::before {
     content: '';
     position: absolute;
