@@ -7,7 +7,7 @@
   align-items: center;
 
   &--section1 {
-    background: #090F18;
+    background: $bgDark;
 
     .event__image {
       width: 700px;
@@ -21,15 +21,15 @@
   }
 
   &--section2 {
-    background: #3d3d3d;
+    background: $bgGray;
   }
 
   &--section3 {
-    background: #090F18;
+    background: $bgDark;
   }
 
   &--section4 {
-    background: #3d3d3d;
+    background: $bgGray;
   }
 
   &--image-left {
@@ -60,7 +60,7 @@
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 16px;
-    color: #B8C9DC;
+    color: $silver;
     letter-spacing: 1px;
   }
 

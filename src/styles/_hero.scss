@@ -35,8 +35,8 @@
 
   &__logo {
     font-family: 'WolfInTheCity', sans-serif;
-    font-size: 52px;
-    color: #B8C9DC;
+    font-size: 80px;
+    color: $silver;
     margin-bottom: 24px;
     display: block;
   }
@@ -55,23 +55,13 @@
     margin-bottom: 12px;
 
     .countdown__item {
-      border: 2px solid #fff;
+      border: 2px solid $textColor;
       border-radius: 10px;
       padding: 8px 18px;
       font-size: 18px;
       min-width: 60px;
       text-align: center;
     }
-  }
-
-  &__info {
-    font-size: 16px;
-    margin-bottom: 8px;
-  }
-
-  &__price {
-    font-size: 18px;
-    margin-bottom: 24px;
   }
 
   @media (max-width: 640px) {

@@ -15,15 +15,9 @@
   }
 
   &--primary {
-    background: linear-gradient(135deg, #2D6EB5, #4A90D9);
+    background: linear-gradient(135deg, $blueDark, $blueLight);
     color: $textColor;
-    border: 1px solid #B8C9DC;
+    border: 1px solid $silver;
     letter-spacing: 1px;
-  }
-
-  &--secondary {
-    background: transparent;
-    color: $textColor;
-    border: 2px solid $textColor;
   }
 }

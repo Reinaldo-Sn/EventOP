@@ -1,14 +1,14 @@
 @use 'variables' as *;
 
 .footer {
-  background: #090F18;
+  background: $bgDark;
   padding: 48px 0;
   text-align: center;
 
   &__logo {
     font-family: 'WolfInTheCity', sans-serif;
     font-size: 40px;
-    color: #B8C9DC;
+    color: $silver;
     margin-bottom: 16px;
     display: block;
   }
