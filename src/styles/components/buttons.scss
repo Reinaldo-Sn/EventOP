@@ -15,8 +15,10 @@
   }
 
   &--primary {
-    background: #c45e00;
+    background: linear-gradient(135deg, #2D6EB5, #4A90D9);
     color: $textColor;
+    border: 1px solid #B8C9DC;
+    letter-spacing: 1px;
   }
 
   &--secondary {

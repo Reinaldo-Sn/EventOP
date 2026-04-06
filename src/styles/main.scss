@@ -4,6 +4,13 @@
 @use 'event';
 @use 'footer';
 
+@font-face {
+  font-family: 'WolfInTheCity';
+  src: url('../fonts/Wolf in the City.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +21,7 @@ body {
   font-family: 'EB Garamond', serif;
   color: #fff;
   list-style: none;
+  overflow-x: hidden;
 }
 
 .container {

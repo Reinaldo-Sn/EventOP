@@ -3,9 +3,9 @@
 .hero {
   min-height: 540px;
   padding: 64px 0 100px;
-  background-image: url('../images/fundo.jpg');
+  background-image: url('../images/fundo.jpeg');
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
@@ -30,14 +30,15 @@
   }
 
   .container {
-    border: 2px solid $color1;
-    border-radius: 8px;
     padding: 32px;
   }
 
   &__logo {
-    height: 80px;
+    font-family: 'WolfInTheCity', sans-serif;
+    font-size: 52px;
+    color: #B8C9DC;
     margin-bottom: 24px;
+    display: block;
   }
 
   &__title {
@@ -48,8 +49,19 @@
   }
 
   &__countdown {
-    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
     margin-bottom: 12px;
+
+    .countdown__item {
+      border: 2px solid #fff;
+      border-radius: 10px;
+      padding: 8px 18px;
+      font-size: 18px;
+      min-width: 60px;
+      text-align: center;
+    }
   }
 
   &__info {
@@ -66,7 +78,7 @@
     padding: 40px 0 60px;
 
     &__logo {
-      height: 40px;
+      font-size: 34px;
     }
 
     &__title {

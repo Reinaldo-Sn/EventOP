@@ -1,13 +1,16 @@
 @use 'variables' as *;
 
 .footer {
-  background: #111;
+  background: #090F18;
   padding: 48px 0;
   text-align: center;
 
   &__logo {
-    height: 60px;
+    font-family: 'WolfInTheCity', sans-serif;
+    font-size: 40px;
+    color: #B8C9DC;
     margin-bottom: 16px;
+    display: block;
   }
 
   &__text {

@@ -1,13 +1,15 @@
 AOS.init();
 
-const eventDate = new Date("2026-04-05T11:15:00");
+const eventDate = new Date("2026-04-25T20:00:00");
 
 function updateCountdown() {
   const now = new Date();
   const diff = eventDate - now;
 
+  const el = document.getElementById("countdown");
+
   if (diff <= 0) {
-    document.getElementById("countdown").textContent = "Evento expirado";
+    el.innerHTML = `<span class="countdown__item">A festa já começou!</span>`;
     return;
   }
 
@@ -16,8 +18,12 @@ function updateCountdown() {
   const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown").textContent =
-    `Em ${days} Dias ${hours} Horas ${minutes} minutos e ${seconds} segundos. a jornada de One Piece continua!`;
+  el.innerHTML = `
+    <span class="countdown__item">${days}d</span>
+    <span class="countdown__item">${hours}h</span>
+    <span class="countdown__item">${minutes}m</span>
+    <span class="countdown__item">${seconds}s</span>
+  `;
 }
 
 updateCountdown();
